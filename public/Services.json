@@ -1,0 +1,26 @@
+[
+    {
+      "id": 101,
+      "img": "images/cheesy-tokbokki.png",
+      "name": "cheesy-tokbokki",
+      "price": "100$",
+      "description": "this is chessy-tokkbokki testy malaysian food. this food made by chiceken. its not too expensive food so you can try it",
+      "ratings" :5.5
+    },
+    {
+      "id": 102,
+      "img": "images/chicken-steak.png",
+      "name": "chicken-sizzling",
+      "price": "200$",
+      "description": "this is chicken-sizzling the most delicious korean food. this food made by chicken and many kinds of vegetables. its not too expensive food so you can try it",
+      "ratings" : 4.9
+    },
+    {
+      "id": 103,
+      "img": "images/Mouth-watering.png",
+      "name": "Mouth-watering",
+      "price": "150$",
+      "description": "this is mouth-watering testy italian food. this food made by data and vegetables and this food spreds many fragrances. its not too expensive food so you can try it",
+      "ratings": 5.3
+    }
+]

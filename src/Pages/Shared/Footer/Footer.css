@@ -1,0 +1,9 @@
+.footer-part{
+    background-color: rgba(10, 9, 9, 0.856);
+    color: blanchedalmond;
+}
+.link-part a{
+    text-decoration: none;
+    color: rgb(100, 237, 111);
+    font-size: 1.3rem;
+}
