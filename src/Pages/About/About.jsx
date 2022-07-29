@@ -1,30 +1,19 @@
 import React from 'react';
-import youtuber from "../../../public/images/youtuber.png";
-import bangli from "../../../public/images/bangli.png";
+import './About.css'
 const About = () => {
     return (
-        <div className="row">
-            <div className="col-lg-12 py-4">
-                <div className="row px-4 mt-5">
-                    <div className="col-lg-6">
-                        <h1>Introduction</h1>
-                        <p>Hi I am Orva. A single passionate on creat Food vlog content. I always cook bengli food and delicious food of many countries and upload it on my you tube channel by video.If you like my cooked foods  items then follow my youtube channel and subscribe by clicking on the link given blow.</p>
-                    </div>
-                    <div className="col-lg-6">
-                        <img className="w-50" src={youtuber} />
-                    </div>
+        <div className="my-5 container w-50 text-center">
+            <div className="row mine-about shadow-lg">
+                <div className="col-lg-6 col-md-6 col-12">
+                    <img className="img-fluid p-3" style={{ height: "500px" }} src="/images/mine.jpg"></img>
                 </div>
-            </div>
-            <div className="col-lg-12 mt-5">
-                <div className="row px-3">
-                    <div className="col-lg-6">
-                        <h1>The Best Bangli Food I Love and Cook</h1>
-                        <p>this is Bengali Aloo Dum or Alur Dum recipe. the delicious bengli food it is. where crispy fried potatoes are dunked in a creamy onion tomato curry. It is best served with Luchi. Here is how to make it.Bengali Dum Aloo (Aloor Dum) is a traditional recipe where baby potatoes are boiled, fried and then added to a spicy tomato onion curry. It is easy to make, delicious and comes together in under 30 minutes.It is best served with matar kochuri or luchi in Bengali homes. It can also be served with phulka or paratha for weekday meals or to be packed in lunch box.
-                        </p>
-                    </div>
-                    <div className="col-lg-6">
-                        <img className="w-50 h-50" src={bangli} />
-                    </div>
+                <div className="col-lg-6 col-md-6 col-12 my-2">
+                    <h2 style={{color:"rgb(194, 71, 102)"}}>Rita</h2>
+                    <h4 style={{ textAlign: "left" }}>My Ambition</h4>
+                    <p style={{ textAlign: "justify" }}>
+                        My goal is to join in a web development company as a full time web developer.
+                        To get the job there is no alternative of hard working. In_sha_Allah I will provide my full effort to get the dream job. I will continue to build new projects with unique ideas. The react world is a huge one and there is a huge number of libraries which creates new functionality projects. So I will keep trying to explore the world as much as I can and will try to implement new libraries in my projects. Through this process In_sha_Allah I will become better day by day and will be ready to become a web developer.
+                    </p>
                 </div>
             </div>
         </div>
