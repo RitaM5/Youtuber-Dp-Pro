@@ -11,6 +11,7 @@ import Register from './Pages/Login/Register/Register'
 import RequireAuth from './Pages/Login/RequireAuth/RequireAuth';
 import NotFound from './Pages/Shared/NotFound/NotFound'
 import Blogs from './Pages/Blogs/Blogs'
+import Details from './Pages/Homes/Details/Explain'
 
 function App() {
 
@@ -29,6 +30,7 @@ function App() {
           </RequireAuth>
         }></Route>
         <Route path="/blogs" element={<Blogs></Blogs>}></Route>
+        <Route path="/details" element={<Details></Details>}>Details</Route>
         <Route path="*" element={<NotFound></NotFound>}></Route>  
       </Routes>
       <Footer></Footer>
